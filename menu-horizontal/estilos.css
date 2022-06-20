@@ -24,6 +24,7 @@ header label {
     height: 30px;
     padding: 10px;
     border-right: 1px solid white;
+    z-index: 100;
 }
 
 header label:hover {
@@ -45,6 +46,7 @@ header label:hover {
     display: flex;
     height: 45px;
     align-items: center;
+    z-index: 100;
 
 
 }
