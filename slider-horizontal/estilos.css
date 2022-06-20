@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(40, 162, 218);
+}
+
+
+/* Para comenzar a animar, necesitamos setear todo esto
+
+.slider {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+padding: 0;
+display: flex;
+width: 400%;
+}
+
+.slider li {
+    list-style: none;
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+} */
+
+
+/* Para realizar la animación del UL */
+
+.slider {
+    width: 45%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    padding: 0;
+    display: flex;
+    width: 400%;
+
+    animation: cambio 20s infinite linear;
+    animation-direction: alternate-reverse;
+}
+
+.slider li {
+    list-style: none;
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.sliderTitulo {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    color: whitesmoke;
+    margin: 25px;
+}
+/* al hacer cortes de 0-20% le estamos dando 4 segundos considerando que son 4 img, con 1 segundo de transiciòn. esto se ajusta segun la cantidad de imagenes. -100% hace referencia al tamaño entero de 1 imagen */
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}

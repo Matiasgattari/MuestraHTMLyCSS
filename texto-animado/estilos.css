@@ -1,0 +1,71 @@
+* { margin: 0;
+    padding: 0;}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(40, 162, 218);
+}
+
+.contenedor {
+    /* largo */
+    width: 350px;
+    /* alto */
+    height: 40px;
+    color: white;
+    font-size: 40px;
+    /* alto de linea igual al height para que encaje cuando suba */
+    line-height: 40px;
+    /* display flex para que los elementos queden uno al lado del otro */
+    display: flex;
+  
+    margin: 25px auto;
+    /* oculto los otros elementos que no se ven  */
+    overflow: hidden;
+    margin-top: 55px;
+}
+
+
+ul {
+    list-style: none;
+
+    padding-left: 10px;
+
+    /* lo que debo animar es el ul, haciendo que suban sus elementos */
+    animation: cambiar 6s infinite linear;
+    animation-direction: alternate;
+}
+
+ul,
+p {
+    margin: 0;
+}
+
+@keyframes cambiar {
+    0% {
+        margin-top: 0;
+    }
+
+    25% {
+        margin-top: 0;
+    }
+
+    30% {
+        margin-top: -40px;
+    }
+
+    60% {
+        margin-top: -40px;
+    }
+
+    65% {
+        margin-top: -80px;
+    }
+
+    100% {
+        margin-top: -80px;
+    }
+
+
+
+}

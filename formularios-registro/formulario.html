@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario responsive</title>
+
+
+    <link rel="stylesheet" href="../estilos.css">
+
+
+    <link rel="stylesheet" href="./estilos.css">
+
+
+
+
+</head>
+
+<body>
+    
+        <h2> Formulario de registros</h2>
+        <!-- action seria nombre del archivo donde va a guardar los datos -->
+        <form action="registrar.php" method="post" class="formularioRegistro">
+            <h2 class="formularioTitulo">CREA UNA CUENTA</h2>
+            <div class="contenedorInputs">
+                <!-- el REQUIRED hace que no se pueda enviar el formulario dejandolo en blanco -->
+                <input type="text" name="nombre" placeholder="Nombre" class="input-50" required>
+                <input type="text" name="apellido" placeholder="Apellido" class="input-50" required>
+                <input type="email" name="correo" placeholder="Correo" class="input-100" required>
+                <input type="text" name="usuario" placeholder="Usuario" class="input-50" required>
+                <!-- al poner de typo password, aparecen los puntitos y no se ve la contraseña  -->
+                <input type="password" name="clave" placeholder="Contraseña" class="input-50" required>
+                <input type="text" name="telefono" placeholder="Telefono" class="input-100" required>
+                <input type="submit" value="Registrar" class="botonEnviar">
+                <p class="formularioCuenta">¿Ya tienes una cuenta? <a href="">Ingresa aquí!</a></p>
+            </div>
+        </form>
+    
+
+    <div class="divBotonIndex">
+        <a href="../index.html"><img class="imagenIndex" src="../casa.png" alt="imagen inicio"></a>
+    </div>
+
+    <h2 style="margin: 25px;">Video de la persona explicandolo</h2>
+    <iframe style="width: 50%; height: 300px; margin: 15px;" src="https://www.youtube.com/embed/TR9dJEkeCoM"
+        title="Diseñando un formulario de registro responsive" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria imagenes con efecto lightbox</title>
+
+    <link rel="stylesheet" href="../estilos.css">
+
+
+    <link rel="stylesheet" href="./estilos.css">
+
+
+
+
+</head>
+
+<body>
+    <h1>Galeria de imagenes efecto lightbox, flex responsive</h1>
+    <ul class="galeria">
+        <li><a href="#img1"><img src="./img/396e37d6-a14f-44ea-8956-f1191a99dbfd.jpg" alt="1"></a></li>
+
+        <li><a href="#img2"><img src="./img/8acf3474-8522-40b1-aba4-76b57919c009.jpg" alt="2"></a></li>
+
+        <li><a href="#img3"><img src="./img/a6165972-9edf-4314-9a59-7221842d0588.jpg" alt="3"></a></li>
+
+        <li><a href="#img4"><img src="./img/bd17b86f-d1ce-414d-95cd-e66ad40208f9.jpg" alt="4"></a></li>
+        <li><a href="#img5"><img src="./img/286893151_552348913188564_840524924013482207_n.jpg" alt="5"></a></li>
+
+        <li><a href="#img6"><img src="./img/287009438_552349049855217_9142597666322111650_n.jpg" alt="6"></a></li>
+
+        <li><a href="#img7"><img src="./img/287053653_552348963188559_4405230299179939839_n.jpg" alt="7"></a></li>
+
+        <li><a href="#img8"><img src="./img/287114001_552348989855223_4501639541573615937_n.jpg" alt="8"></a></li>
+    </ul>
+
+    <div class="divBotonIndex">
+        <a href="../index.html"><img class="imagenIndex" src="../casa.png" alt="imagen inicio"></a>
+    </div>
+
+
+    <div class="modal" id="img1">
+        <h3>paisaje 1</h3>
+        <div class="imagen">
+            <!-- &#60; es para poner un signo < como imagen para volver a la imagen anterior -->
+            <a href="#img8">&#60;</a>
+            <a href="#img2"><img src="./img/396e37d6-a14f-44ea-8956-f1191a99dbfd.jpg" alt="imagen 1" srcset=""></a>
+            <a href="#img2">></a>
+        </div>
+        <a href="" class="cerrar">X</a>
+    </div>
+
+    <div class="modal" id="img2">
+        <h3>paisaje 2</h3>
+        <div class="imagen">
+            <!-- &#60; es para poner un signo < como imagen para volver a la imagen anterior -->
+            <a href="#img1">&#60;</a>
+            <a href="#img3"><img src="./img/8acf3474-8522-40b1-aba4-76b57919c009.jpg" alt="imagen 2" srcset=""></a>
+            <a href="#img3">></a>
+        </div>
+        <a href="" class="cerrar">X</a>
+    </div>
+
+    <div class="modal" id="img3">
+        <h3>paisaje 3</h3>
+        <div class="imagen">
+            <!-- &#60; es para poner un signo < como imagen para volver a la imagen anterior -->
+            <a href="#img2">&#60;</a>
+            <a href="#img4"><img src="./img/a6165972-9edf-4314-9a59-7221842d0588.jpg" alt="imagen 3" srcset=""></a>
+            <a href="#img4">></a>
+        </div>
+        <a href="" class="cerrar">X</a>
+    </div>
+
+    <div class="modal" id="img4">
+        <h3>paisaje 4</h3>
+        <div class="imagen">
+            <!-- &#60; es para poner un signo < como imagen para volver a la imagen anterior -->
+            <a href="#img3">&#60;</a>
+            <a href="#img5"><img src="./img/bd17b86f-d1ce-414d-95cd-e66ad40208f9.jpg" alt="imagen 4" srcset=""></a>
+            <a href="#img5">></a>
+        </div>
+        <a href="" class="cerrar">X</a>
+    </div>
+
+    <div class="modal" id="img5">
+        <h3>paisaje 5</h3>
+        <div class="imagen">
+            <!-- &#60; es para poner un signo < como imagen para volver a la imagen anterior -->
+            <a href="#img4">&#60;</a>
+            <a href="#img6"><img src="./img/286893151_552348913188564_840524924013482207_n.jpg" alt="imagen 5"
+                    srcset=""></a>
+            <a href="#img6">></a>
+        </div>
+        <a href="" class="cerrar">X</a>
+    </div>
+
+    <div class="modal" id="img6">
+        <h3>paisaje 6</h3>
+        <div class="imagen">
+            <!-- &#60; es para poner un signo < como imagen para volver a la imagen anterior -->
+            <a href="#img5">&#60;</a>
+            <a href="#img7"><img src="./img/287009438_552349049855217_9142597666322111650_n.jpg" alt="imagen 6"
+                    srcset=""></a>
+            <a href="#img7">></a>
+        </div>
+        <a href="" class="cerrar">X</a>
+    </div>
+
+    <div class="modal" id="img7">
+        <h3>paisaje 7</h3>
+        <div class="imagen">
+            <!-- &#60; es para poner un signo < como imagen para volver a la imagen anterior -->
+            <a href="#img6">&#60;</a>
+            <a href="#img8"><img src="./img/287053653_552348963188559_4405230299179939839_n.jpg" alt="imagen 7"
+                    srcset=""></a>
+            <a href="#img8">></a>
+        </div>
+        <a href="" class="cerrar">X</a>
+    </div>
+
+    <div class="modal" id="img8">
+        <h3>paisaje 8</h3>
+        <div class="imagen">
+            <!-- &#60; es para poner un signo < como imagen para volver a la imagen anterior -->
+            <a href="#img7">&#60;</a>
+            <a href="#img1"><img src="./img/287114001_552348989855223_4501639541573615937_n.jpg" alt="imagen 8"
+                    srcset=""></a>
+            <a href="#img1">></a>
+        </div>
+        <a href="" class="cerrar">X</a>
+    </div>
+
+
+
+    <h2>Link al video de como crearlo</h2>
+    <iframe style="width: 50%; height: 300px; margin: 15px;" src="https://www.youtube.com/embed/mWKmDV94uPI"
+        title="Galería de imágenes con efecto lightbox solo con HTML y CSS" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+
+</body>
+
+</html>

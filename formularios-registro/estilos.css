@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(40, 162, 218);
+    box-sizing: border-box;
+}
+
+
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.formularioRegistro {
+    width: 98%;
+    /* tamaño maximo del formulario hasta 500px, hace que solo pueda crecer hasta ahi en pantallas grandes   */
+    max-width: 700px;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 7px;
+
+}
+
+.formularioTitulo {
+    background-color: deepskyblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    /* le saco negrita  */
+    font-weight: 100;
+    font-size: 30px;
+    border-bottom: 5px solid crimson;
+    /* puedo redondear solo la esquina que deseo del box  */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.contenedorInputs {
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    align-items: center;
+    margin: 10px 10px; 
+    gap: 25px;
+}
+
+.input-50 {
+    width: 42%;
+}
+
+.input-100 {
+    width: 100%;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+.botonEnviar {
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+    text-align: center;
+    margin: auto;
+    padding: 10px 40px;
+    /* hacer que el cursor sea una manito al pasar por encima  */
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.botonEnviar:active {
+    transform: scale(1.1);
+}
+
+.formularioCuenta {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-size: 14px;
+}

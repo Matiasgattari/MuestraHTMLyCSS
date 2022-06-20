@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+/* font-family: 'Kanit', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(40, 162, 218);
+}
+
+.contenedorFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+}
+
+
+.botonPaginas {
+    background-color: rgb(253, 104, 104);
+
+    border: 3px whitesmoke solid;
+    border-radius: 5px;
+    width: auto;
+    height: 55px;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.claseLi {
+    text-decoration: none;
+    list-style: none;
+    margin: 25px 10px;
+
+}
+
+.botonPaginas a {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    font-style: none;
+    color: aliceblue;
+}
+
+.imagenIndex {
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(113, 158, 241);
+    opacity: 75%;
+    border-radius: 5px;
+}
+
+.divBotonIndex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-top: 2px whitesmoke solid;
+    border-bottom: 2px whitesmoke solid;
+}
