@@ -2,6 +2,9 @@
 /* font-family: 'Kanit', sans-serif; */
 
 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/* font-family: 'Indie Flower', cursive; */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +14,12 @@ body {
     margin: 0;
     font-family: sans-serif;
     background-color: rgb(40, 162, 218);
+    
 }
+
+main {
+    min-height: 1000px;
+  }
 
 .contenedorFlex {
     display: flex;
@@ -24,12 +32,12 @@ body {
 
 .botonPaginas {
     background-color: rgb(253, 104, 104);
-
     border: 3px whitesmoke solid;
     border-radius: 5px;
     width: auto;
     height: 55px;
     box-shadow: 2px 2px 2px black;
+    padding: 10px;
 
 }
 
@@ -75,4 +83,81 @@ h2 {
     margin-bottom: 25px;
     border-top: 2px whitesmoke solid;
     border-bottom: 2px whitesmoke solid;
+}
+
+
+.footerLista {
+    display: flex;
+    text-decoration: none;
+    font-style: none;
+}
+
+.logoRed {
+    width: 35px;
+    height: 35px;
+    margin: 0 25px;
+    }
+
+  
+footer {display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+border-top: 2px solid whitesmoke;
+height: 100px;
+bottom: 0;}
+
+.footerTexto {
+    width: 100%;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 21px;
+    color: blanchedalmond;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.textDecorationNone {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: azure;
+    font-family: 'Indie Flower', cursive; margin: 15px;
+
+}
+p.parrafoPresentacion {
+    font-size: 25px;
+    color: blanchedalmond;
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    line-height: 40px;
+    margin: 15px 0 15px 35px;
+}
+
+.contenidoPrincipal {max-width: 90%;}
+
+
+@media  screen and (max-width:450px) {
+    .botonPaginas a {
+        font-size: 16px;
+            }
+
+            h1 {
+                font-size: 25px;
+               
+            }
+            p.parrafoPresentacion {
+                font-size: 20px;
+                
+            }
+            .footerTexto {
+                
+                font-size: 16px;
+                
+            }
+    
 }

@@ -26,7 +26,7 @@ body {
 }
 
 
-ul {
+ul.animacionTexto {
     list-style: none;
 
     padding-left: 10px;

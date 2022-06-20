@@ -19,25 +19,25 @@
 </head>
 
 <body>
-    
-        <h2> Formulario de registros</h2>
-        <!-- action seria nombre del archivo donde va a guardar los datos -->
-        <form action="registrar.php" method="post" class="formularioRegistro">
-            <h2 class="formularioTitulo">CREA UNA CUENTA</h2>
-            <div class="contenedorInputs">
-                <!-- el REQUIRED hace que no se pueda enviar el formulario dejandolo en blanco -->
-                <input type="text" name="nombre" placeholder="Nombre" class="input-50" required>
-                <input type="text" name="apellido" placeholder="Apellido" class="input-50" required>
-                <input type="email" name="correo" placeholder="Correo" class="input-100" required>
-                <input type="text" name="usuario" placeholder="Usuario" class="input-50" required>
-                <!-- al poner de typo password, aparecen los puntitos y no se ve la contraseña  -->
-                <input type="password" name="clave" placeholder="Contraseña" class="input-50" required>
-                <input type="text" name="telefono" placeholder="Telefono" class="input-100" required>
-                <input type="submit" value="Registrar" class="botonEnviar">
-                <p class="formularioCuenta">¿Ya tienes una cuenta? <a href="">Ingresa aquí!</a></p>
-            </div>
-        </form>
-    
+
+    <h2> Formulario de registros</h2>
+    <!-- action seria nombre del archivo donde va a guardar los datos -->
+    <form action="registrar.php" method="post" class="formularioRegistro">
+        <h2 class="formularioTitulo">CREA UNA CUENTA</h2>
+        <div class="contenedorInputs">
+            <!-- el REQUIRED hace que no se pueda enviar el formulario dejandolo en blanco -->
+            <input type="text" name="nombre" placeholder="Nombre" class="input-50" required>
+            <input type="text" name="apellido" placeholder="Apellido" class="input-50" required>
+            <input type="email" name="correo" placeholder="Correo" class="input-100" required>
+            <input type="text" name="usuario" placeholder="Usuario" class="input-50" required>
+            <!-- al poner de typo password, aparecen los puntitos y no se ve la contraseña  -->
+            <input type="password" name="clave" placeholder="Contraseña" class="input-50" required>
+            <input type="text" name="telefono" placeholder="Telefono" class="input-100" required>
+            <input type="submit" value="Registrar" class="botonEnviar">
+            <p class="formularioCuenta">¿Ya tienes una cuenta? <a href="">Ingresa aquí!</a></p>
+        </div>
+    </form>
+
 
     <div class="divBotonIndex">
         <a href="../index.html"><img class="imagenIndex" src="../casa.png" alt="imagen inicio"></a>
@@ -48,6 +48,25 @@
         title="Diseñando un formulario de registro responsive" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
+
+
+        <footer class="">
+            <div class="footerTexto"> Sitio web desarrollado por <strong> Matías Gattari </strong>, Contactame para mas
+                información </div>
+            <ul class="footerLista ">
+                <li class="textDecorationNone">
+                    <a class=" " href="https://api.whatsapp.com/send?phone=5491130232225" target="_blank">
+                        <img class="logoRed " src="../whatsapp.png" alt="whatsapp" srcset="">
+                    </a>
+                </li>
+                <li class="textDecorationNone">
+                    <a class=" " href="https://www.linkedin.com/in/mat%C3%ADas-gattari-desarrolloweb/" target="_blank">
+                        <img class="logoRed " src="../linkedin.png" alt="linkedin" srcset="">
+                    </a>
+                </li>
+                </div>
+        </footer>
+
 
 </body>
 
